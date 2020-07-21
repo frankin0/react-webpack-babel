@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+.DS_Store
 
 # Runtime data
 pids
@@ -16,6 +17,10 @@ coverage
 # Jest Clutter
 __snapshots__
 
+# IDE
+.idea
+.vscode
+
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
@@ -24,6 +29,7 @@ __snapshots__
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
+build
 
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
@@ -31,4 +37,3 @@ node_modules
 
 # Ignore build files
 public
-.idea
